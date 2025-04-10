@@ -1,86 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money | Gotokuji Temple Tokyo</title>
+  <link rel="icon" href="images/starburst_dark.svg" type="image/svg+xml">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <title>Money Temple - Japan | Temple Travel Guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Temple Travels</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="love.html">Love</a></li>
-        <li class="nav-item"><a class="nav-link" href="power.html">Power</a></li>
-        <li class="nav-item"><a class="nav-link active" href="money.html">Money</a></li>
-        <li class="nav-item"><a class="nav-link" href="health.html">Health</a></li>
-        <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<!-- Header -->
+<header class="py-4 border-bottom bg-white">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a href="index.html" class="d-flex align-items-center text-decoration-none text-dark fw-bold fs-4">
+      <img src="images/starburst_dark.svg" alt="Logo" class="me-2" style="width: 28px; height: 28px;">
+      Make a Wish
+    </a>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="main.html" class="nav-link px-2 text-dark">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-dark">About</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-dark">Contact</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
-</nav>
+</header>
 
 <!-- Hero Section -->
-<section class="py-5 mt-5 bg-warning text-dark text-center">
-  <div class="container">
-    <h1 class="display-4 fw-bold">💰 Find Fortune in Tokyo</h1>
-    <p class="lead">Gotokuji Temple — the home of the lucky beckoning cat and Japan’s symbol of prosperity.</p>
+<section class="hero hero-love text-center d-flex align-items-center justify-content-center" style="background-image: url('images/hero-money.jpg.jpg')">
+  <div class="hero-content text-white">
+    <h1 class="display-4 fw-bold">Attract Prosperity in Tokyo</h1>
+    <p class="lead">Gotokuji Temple — home of the lucky cat Maneki-Neko and one of Japan’s most iconic spots for financial wishes.</p>
   </div>
 </section>
 
-<!-- Temple Content -->
-<section class="py-5">
+<!-- Temple Overview -->
+<section class="py-5 bg-white">
   <div class="container">
-    <h2 class="mb-4 text-center text-uppercase">Gotokuji Temple (豪徳寺) – Tokyo, Japan</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="images/gotokuji.jpg" alt="Gotokuji Temple Tokyo" class="img-fluid rounded shadow-sm mb-4">
+    <div class="row justify-content-center align-items-center mb-5">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="images/money-ManekiNeko.jpg" alt="Gotokuji Temple" class="img-fluid rounded shadow">
       </div>
-      <div class="col-md-6">
-        <ul class="list-group mb-4">
-          <li class="list-group-item"><strong>City:</strong> Tokyo (Setagaya Ward), Japan</li>
-          <li class="list-group-item"><strong>Deity:</strong> Maneki Neko (Beckoning Cat for wealth)</li>
-          <li class="list-group-item"><strong>Address:</strong> 2-24-7 Gotokuji, Setagaya City, Tokyo</li>
-          <li class="list-group-item"><strong>Opening Hours:</strong> 6:00 AM – 6:00 PM</li>
-        </ul>
-        <p><strong>Temple History:</strong> Founded during the Edo period (1480s), this temple is said to be the birthplace of the Maneki Neko legend — where a lucky cat saved a samurai from a lightning storm, bringing prosperity to the temple.</p>
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3">Gotokuji Temple 豪徳寺</h2>
+        <table class="table table-bordered">
+          <tbody>
+            <tr><th scope="row">City:</th><td>Tokyo, Japan</td></tr>
+            <tr><th scope="row">Symbol:</th><td>Maneki-Neko (Beckoning Cat)</td></tr>
+            <tr><th scope="row">Religion:</th><td>Buddhism</td></tr>
+            <tr><th scope="row">Address:</th><td>2 Chome-24-7 Gotokuji, Setagaya City, Tokyo</td></tr>
+            <tr><th scope="row">Opening Hours:</th><td>6:00 AM - 5:00 PM daily</td></tr>
+          </tbody>
+        </table>
+        <p class="mt-3">Legend says a cat once saved a feudal lord from a lightning storm, leading to the founding of Gotokuji. Today, it's a peaceful haven where people offer lucky cats to manifest wealth, success, and good fortune.</p>
       </div>
     </div>
 
     <hr class="my-5">
 
-    <h3>🧧 How to Make a Wish</h3>
-    <ul>
-      <li>🐱 Buy a Maneki Neko figurine from the temple shop.</li>
-      <li>✍️ Write your financial wish on the bottom of the cat.</li>
-      <li>⛩️ Offer it at the altar or take it home for prosperity.</li>
-    </ul>
+    <!-- How to Make a Wish -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-10">
+        <div class="row align-items-start">
+          <div class="col-md-8">
+            <h3 class="fw-bold mb-3">How to Make a Wish</h3>
+            <ol class="fs-5 temple-icons list-unstyled">
+              <li class="mb-2"><i class="fas fa-cat me-2 text-dark"></i>Purchase a Maneki-Neko figure from the temple shop.</li>
+              <li class="mb-2"><i class="fas fa-marker me-2 text-dark"></i>Write your wish or goal on the cat's base or tag.</li>
+              <li class="mb-2"><i class="fas fa-hand-holding-usd me-2 text-dark"></i>Place it gently among the hundreds of other cats on the offering racks.</li>
+              <li class="mb-2"><i class="fas fa-praying-hands me-2 text-dark"></i>Bow in gratitude and visualize your financial blessing coming true.</li>
+            </ol>
+          </div>
+          <div class="col-md-4">
+            <img src="images/hero-money.jpg.jpg" alt="Maneki-Neko Offerings" class="img-fluid rounded shadow mb-4">
+          </div>
+        </div>
 
-    <hr class="my-5">
+        <!-- Nearby Attractions -->
+        <div class="row align-items-start mt-5">
+          <div class="col-md-5 mb-4">
+            <img src="images/money-map.png" alt="Tokyo Map" class="img-fluid rounded shadow">
+          </div>
+          <div class="col-md-7">
+            <h3 class="fw-bold mb-3">Nearby Attractions</h3>
+            <ul class="fs-5 temple-icons list-unstyled">
+              <li class="mb-2"><i class="fas fa-mug-hot me-2 text-dark"></i>Shimokitazawa - explore vintage boutiques, cafés, and indie bookshops nearby.</li>
+              <li class="mb-2"><i class="fas fa-store me-2 text-dark"></i>Setagaya Daikan-Yashiki - a preserved Edo-era samurai house around the corner.</li>
+            </ul>
 
-    <h3>📍 Nearby Attractions</h3>
-    <ul>
-      <li><strong>Shimo-Takaido Shopping Street:</strong> Experience old-school Tokyo with local eats and shops.</li>
-      <li><strong>Shimokitazawa:</strong> Trendy area for thrift shops, music, and indie cafés.</li>
-    </ul>
-
-    <hr class="my-5">
-
-    <h3>🧳 Travel Tips</h3>
-    <ul>
-      <li>🍁 Best time to visit: Autumn (Oct–Nov) for beautiful maple leaves and mild weather.</li>
-      <li>🎎 This temple is peaceful and less touristy — a great photo spot with hundreds of cat statues!</li>
-    </ul>
+            <h3 class="fw-bold mt-5 mb-3">Travel Tips</h3>
+            <ul class="fs-5 temple-icons list-unstyled">
+              <li class="mb-2"><i class="fas fa-calendar-alt me-2 text-dark"></i>Best time to visit: Early spring or autumn for pleasant weather and photo ops.</li>
+              <li class="mb-2"><i class="fas fa-coins me-2 text-dark"></i>Don’t forget to bring coins for omikuji fortunes or donation boxes.</li>
+              <li class="mb-2"><i class="fas fa-train me-2 text-dark"></i>Nearest Station: Gotokuji Station (Odakyu Line)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -88,18 +108,20 @@
 <footer class="bg-dark text-white text-center py-4 mt-5">
   <div class="container">
     <ul class="nav justify-content-center mb-3">
-      <li class="nav-item"><a href="love.html" class="nav-link text-white">Love</a></li>
-      <li class="nav-item"><a href="power.html" class="nav-link text-white">Power</a></li>
-      <li class="nav-item"><a href="money.html" class="nav-link text-white">Money</a></li>
-      <li class="nav-item"><a href="health.html" class="nav-link text-white">Health</a></li>
-      <li class="nav-item"><a href="career.html" class="nav-link text-white">Career</a></li>
+      <li class="nav-item"><a href="main.html" class="nav-link text-white">Home</a></li>
       <li class="nav-item"><a href="about.html" class="nav-link text-white">About</a></li>
       <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
     </ul>
-    <p>&copy; <span id="year">2025</span> Temple Travel Guide. All rights reserved.</p>
+    <div class="mb-3">
+      <a href="https://instagram.com/templewishes" class="text-white mx-2" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://facebook.com/templewishes" class="text-white mx-2" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://x.com/templewishes" class="text-white mx-2" target="_blank"><i class="fab fa-x-twitter fa-lg"></i></a>
+    </div>
+    <p class="mb-0">&copy; 2025 Make a Wish. All rights reserved.</p>
   </div>
 </footer>
 
+<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
