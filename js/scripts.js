@@ -15,3 +15,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const coin = document.getElementById("coin");
+  const result = document.getElementById("coinResult");
+
+  if (coin) {
+    coin.addEventListener("click", () => {
+      coin.classList.add("flipping");
+      setTimeout(() => {
+        const isHeads = Math.random() < 0.5;
+        result.textContent = isHeads ? "Heads" : "Tails";
+        coin.classList.remove("flipping");
+      }, 600);
+    });
+  }
+});
