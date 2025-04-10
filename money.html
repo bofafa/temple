@@ -13,17 +13,26 @@
 <body>
 
 <!-- Header -->
-<!-- Header -->
 <header class="py-4 border-bottom bg-white">
   <div class="container d-flex justify-content-between align-items-center">
+    <!-- Logo -->
     <a href="index.html" class="d-flex align-items-center text-decoration-none text-dark fw-bold fs-4">
       <img src="images/starburst_dark.svg" alt="Logo" class="me-2" style="width: 28px; height: 28px;">
       Make a Wish
     </a>
+
+    <!-- Hamburger Button (visible on small screens) -->
+<button id="hamburgerBtn" class="navbar-toggler d-lg-none border-0 ms-auto" type="button" aria-label="Toggle navigation">
+  <i class="fas fa-bars fa-lg text-dark"></i>
+</button>
+
+
+    <!-- Navigation Menu -->
     <nav>
-      <ul class="nav">
+      <ul class="nav d-none d-lg-flex" id="desktopMenu">
         <li class="nav-item"><a href="main.html" class="nav-link px-2 text-dark">Home</a></li>
         <li class="nav-item"><a href="love.html" class="nav-link px-2 text-dark">Love</a></li>
+        <li class="nav-item"><a href="money.html" class="nav-link px-2 text-dark">Money</a></li>
         <li class="nav-item"><a href="power.html" class="nav-link px-2 text-dark">Power</a></li>
         <li class="nav-item"><a href="health.html" class="nav-link px-2 text-dark">Health</a></li>
         <li class="nav-item"><a href="career.html" class="nav-link px-2 text-dark">Career</a></li>
@@ -31,6 +40,20 @@
         <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-dark">Contact</a></li>
       </ul>
     </nav>
+  </div>
+
+  <!-- Mobile Menu (hidden by default) -->
+  <div id="mobileMenu" class="d-lg-none d-none mt-3 px-3">
+    <ul class="nav flex-column text-center">
+      <li class="nav-item"><a href="main.html" class="nav-link text-dark py-2">Home</a></li>
+      <li class="nav-item"><a href="love.html" class="nav-link text-dark py-2">Love</a></li>
+      <li class="nav-item"><a href="money.html" class="nav-link text-dark py-2">Money</a></li>
+      <li class="nav-item"><a href="power.html" class="nav-link text-dark py-2">Power</a></li>
+      <li class="nav-item"><a href="health.html" class="nav-link text-dark py-2">Health</a></li>
+      <li class="nav-item"><a href="career.html" class="nav-link text-dark py-2">Career</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link text-dark py-2">About</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link text-dark py-2">Contact</a></li>
+    </ul>
   </div>
 </header>
 

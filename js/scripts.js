@@ -5,19 +5,13 @@ function goToRandomWish() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const track = document.getElementById("carousel-track");
-  if (!track) return;
+  const toggleButton = document.getElementById("hamburgerBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
 
-  let scrollAmount = 0;
-
-  function animateCarousel() {
-    scrollAmount += 0.5;
-    if (scrollAmount >= track.scrollWidth / 2) {
-      scrollAmount = 0;
-    }
-    track.style.transform = `translateX(-${scrollAmount}px)`;
-    requestAnimationFrame(animateCarousel);
+  if (toggleButton && mobileMenu) {
+    toggleButton.addEventListener("click", () => {
+      mobileMenu.classList.toggle("d-none");
+    });
   }
-
-  animateCarousel();
 });
+
